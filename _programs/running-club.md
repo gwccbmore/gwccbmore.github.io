@@ -1,14 +1,12 @@
 ---
-layout: programs
 title: Running Club
+layout: programs
 audience: Youth Ages 5 - 13
-program_summary: In Running Club you can train for fun or to be apart of the Lit City Relays, as we race around the community.
-
-[//]: # Cover Image
-cover_image: /assets/img/programs_runningclub.jpg
-
-[//]: # Meta Box (Programs Page)
+program_summary: In Running Club you can train for fun or to be apart of the Lit City
+  Relays, as we race around the community.
+'["//"]': 
+cover_image: "/assets/img/programs_runningclub.jpg"
 days: Wednesdays (Weekly)
 time: 05:00 pm - 06:00 pm
-
 ---
+
