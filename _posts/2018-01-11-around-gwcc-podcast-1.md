@@ -9,4 +9,8 @@ featured: false
 slide: true
 ---
 
-{% include components/highlight_slide.html %}
+{% include components/highlight_slide.html
+    slide1="/assets/img/highlights_podcast.jpg"
+    slide2="/assets/img/history_cover.jpg"
+    slide3="/assets/img/gwcc_discover_volunteer.jpg"
+%}

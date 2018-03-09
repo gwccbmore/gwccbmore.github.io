@@ -35,6 +35,12 @@ collections:
   timeline:
     output: false
 
+  docs:
+    output: false
+
+  resources:
+    output: false
+
 # GWCC Sponsors
 sponsor1_img: /assets/img/logo_rwd.png
 sponsor1_text: Robert Deutsch Foundation
