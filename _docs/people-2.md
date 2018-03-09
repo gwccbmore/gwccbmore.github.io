@@ -1,7 +1,9 @@
 ---
+title: People 2
 docs-question: To add or remove partners
 docs-category: people
 ---
+
 In siteleaf panel, select Settings.  Look for this variable:
 
     + taylors_job_application
