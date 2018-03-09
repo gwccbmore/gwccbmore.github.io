@@ -1,5 +1,6 @@
 ---
-layout: people
 title: Staff
+layout: people
 order: 1
 ---
+
