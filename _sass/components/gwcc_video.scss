@@ -1,0 +1,106 @@
+// Bronzey - Full Width Video
+.bronzey {
+    background-image: url('/assets/img/learn_gwcc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+    left: 50%;
+    margin-left: -50vw;
+    position: relative;
+    transition: 0.5s;
+    width: 100vw;
+
+    @include desktop {
+        height: 75vh;
+    }
+
+    .bronzey_alpha {
+        color: $white;
+        font-size: 20px;
+        letter-spacing: 1.5px;
+        margin-top: 35px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px #484646;
+
+        @include tablet {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+    .bronzey_play {
+        text-align: center;
+    }
+}
+
+/* Fullscreen Section */
+.gwcc_video_player {
+    width: 100%;
+    height: 10vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-display: flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+}
+.gwcc_play {
+    border: 3px solid;
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 125px;
+    font-size: 26px;
+    padding: 9px 0;
+    color: $bluegreen;
+}
+.gwcc_play:hover {
+    background: $bluegreen;
+    cursor: pointer;
+    border-color: $bluegreen;
+    color: $black;
+}
+
+/* Fullscreen Overlay */
+.gwcc_video_overlay {
+    width: 100%;
+    height: 100vh;
+    background: rgba(71,231,206,0.95);
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    left: -100%;
+    top: 0;
+    transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+}
+
+.gwcc-video-container {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.gwcc_close {
+    width: 20px;
+    fill: red;
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+
+.gwcc_close:hover {
+    fill: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+/* Class to fade in overlay */
+.gwcc_show {
+    opacity: 1;
+}

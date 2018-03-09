@@ -1,0 +1,338 @@
+// -- Page Header
+.page_header_content {
+	padding: 20px 15px;
+
+    @include tablet {
+        padding: 12px;
+    }
+    @include laptop {
+        padding: 0 0 20px;
+    }
+}
+.page_title_content {
+	margin: 0 auto 10px;
+	width: 100%;
+
+	@include palm {
+		margin: 0 0 25px;
+	}
+
+	.circle {
+		border-radius: 50%;
+		display: inline-block;
+        height: 65px;
+		width: 65px;
+
+        @include tablet {
+            height: 75px;
+            width: 75px;
+        }
+
+		@include desktop {
+			height: 100px;
+			width: 100px;
+		}
+	}
+	.page_title {
+		display: inline-block;
+		font-family: $font-1;
+        font-size: 30px;
+		font-weight: $muli-black;
+		margin-left: -45px;
+		margin-top: 15px;
+		text-transform: uppercase;
+		vertical-align: top;
+		width: 90%;
+
+        @include tablet {
+            font-size: 40px;
+			width: auto;
+        }
+
+		@include desktop {
+			font-size: 50px;
+			margin-top: 20px;
+		}
+	}
+}
+
+// Video Background
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  z-index: -100;
+  object-fit: cover;
+}
+
+// Accordion
+.accordion_meta {
+    @extend .history_meta;
+
+    @include tablet {
+        padding: 50px 0 !important;
+    }
+
+    @include desktop {
+        max-width: 1000px !important;
+        padding: 100px 0 100px 100px;
+    }
+}
+
+// Yellow Lines Animated
+.animated_lines {
+    position: relative;
+    margin:30px 0 0 75px;
+    padding-bottom: 0;
+    transform: rotate(30deg);
+    display: inline-block;
+    z-index: 3;
+
+    @include palm {
+        margin: 0 0 0 125px;
+    }
+    @include laptop {
+        margin: 0 0 0 125px;
+    }
+    @include desktop {
+        margin: 0 0 0 300px;
+    }
+
+    .animated_line_single {
+        background: #FA879E;
+        width: 2px;
+        height: 150px;
+        display: inline-block;
+        position: absolute;
+        top: -4em;
+        left: 0;
+		@include mx_animated(4s,2s,infinite);
+
+        @include desktop {
+            top: 1em;
+            height: 400px;
+        }
+
+        &.alt_single {
+            top: -2.5em;
+            left: 7px;
+
+            @include desktop {
+                top: 3em;
+                left: 10px;
+            }
+        }
+    }
+
+}
+
+// Color Overlays
+.color_overlay:before{
+  @include color_overlay($bluegreen, 0.45);
+}
+
+// Overlay Hacks
+.mission_group *,
+.discover_prime_image *,
+.history_group *,
+.highlight_video *,
+.highlights__slider_bg_img * {
+    position: relative;
+}
+
+
+
+// Community Page
+
+.category_group {
+    padding: 75px 0;
+    border-bottom: 2px solid;
+
+	@include tablet {
+		padding: 55px 0 25px;
+	}
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.category_title {
+    font-family: $font-1;
+    font-weight: $muli-black;
+    margin-bottom: 30px;
+    font-size: 22px;
+    color: $bluegreen;
+
+    @include tablet {
+        font-size: 26px;
+    }
+    @include widescreen {
+        font-size: 36px;
+    }
+    @include tv {
+        font-size: 32px;
+    }
+}
+.section_group {
+    width: 100%;
+    margin-bottom: 25px;
+
+    @include palm {
+        width: 46%;
+        margin-right: 15px;
+    }
+
+    @include tablet {
+        margin-bottom: 50px;
+        max-width: 250px;
+        margin-right: 50px;
+    }
+
+    @include laptop {
+        margin-right: 30px;
+    }
+    @include desktop {
+        max-width: 225px;
+    }
+    @include widescreen {
+        margin-right: 60px;
+    }
+    @include tv {
+        margin-right: 50px;
+        max-width: 275px;
+    }
+}
+.section_title {
+    font-family: $font-1;
+    font-weight: $muli-black;
+    padding-bottom: 5px;
+    font-size: 18px;
+
+    @include tablet {
+        font-size: 20px;
+    }
+    @include widescreen {
+        font-size: 24px;
+    }
+
+    a {
+        color: $black;
+
+        &:hover {
+            border-bottom: 2px solid;
+        }
+    }
+}
+.section_location {
+    font-size: 18px;
+    margin-bottom: 3px;
+
+    @include tablet {
+        font-size: 20px;
+    }
+
+    @include tv {
+        font-size: 24px;
+    }
+}
+.section_url {
+    font-weight: $muli-black;
+    font-family: $font-1;
+
+    @include tablet {
+        font-size: 18px;
+    }
+
+    a {
+        color: $bluegreen;
+
+        &:hover {
+            border-bottom: 3px solid;
+            padding-bottom: 2px;
+        }
+    }
+}
+// Mapbox
+.mapbox_wrapper {
+    width: 80% !important;
+    margin: 0 auto;
+    padding: 50px 0 75px;
+	height: 60vh;
+	position: relative;
+
+    @include tablet {
+        width: 90%;
+    }
+    @include widescreen {
+        width:80%;
+		height: 80vh;
+    }
+}
+.map_title {
+    position: absolute;
+    font-size: 14px;
+    font-weight: $muli-black;
+    text-align: center;
+    top: 45%;
+    z-index: 3;
+    width: 210px;
+    line-height: 0.8;
+    left: 0;
+    right: 0;
+    border: 2px solid;
+    padding: 7px 10px;
+    margin: auto;
+    color: $black;
+    box-shadow: 1px 1px 1px $bluegreen;
+    text-shadow: 1px 1px 0 $bluegreen;
+    background: rgba($bluegreen,0.75);
+
+    @include tablet {
+        width: 310px;
+        font-size: 22px;
+    }
+
+    span {
+        font-size: 14px;
+    }
+}
+
+// Background Cover
+.cover_group {
+	height: 60vh;
+	width: 100%;
+	@extend %bg_props;
+	position: relative;
+	vertical-align: top;
+
+	@include tablet {
+		height: 70vh;
+	}
+}
+
+// Calendar
+.calendar_title_wrapper {
+	margin: 0 auto;
+	padding: 0 0 2em;
+	width: 90%;
+}
+.calendar_subtitle {
+	padding-top: 15px;
+	font-size: 18px;
+	width: 100%;
+	line-height: 1.4;
+	font-family: 'Karla',sans-serif;
+
+	@include tablet {
+		width: 75%;
+		font-size: 24px;
+	}
+	@include desktop {
+		width: 50%;
+	}
+}

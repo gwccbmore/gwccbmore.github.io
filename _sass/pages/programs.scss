@@ -1,0 +1,307 @@
+// Mobile Programs Menu
+.programs_menu_btn_2 {
+    font-family: $font-1;
+    font-weight: $muli-black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    background: $bluegreen;
+    padding: 10px 0;
+
+    @include palm {
+        margin: auto;
+    }
+    @include laptop {
+        display: none;
+    }
+
+    a {
+        color: $black;
+    }
+}
+.programs_menu {
+    width: 100%;
+    padding: 30px;
+
+    @include palm {
+        width: 75%;
+        padding: 30px;
+        margin: auto;
+    }
+
+    @include tablet {
+        width: 55%;
+    }
+
+    @include laptop {
+        width: 220px;
+        margin: 0 0 75px 0;
+        padding:0;
+    }
+
+    ul {
+        display: none;
+        padding-top: 15px;
+        border: 3px solid $darkbluegreen;
+        width: 100%;
+
+        @include laptop {
+            display: block;
+            border: none;
+            padding-top: 0;
+        }
+
+        li {
+            // Mobile Menu
+            font-family: $font-1;
+            font-weight: $muli-black;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 10px;
+
+            @include laptop {
+                font-size: 18px;
+                margin-bottom: 10px;
+                border: 3px solid $bluegreen;
+                padding: 6px;
+            }
+
+            a {
+                color: $black;
+
+                &:hover {
+                    color: $darkbluegreen;
+                }
+            }
+
+            &.active {
+
+                @include laptop {
+                    background-color: $darkbluegreen;
+                }
+
+                a {
+                    @include laptop {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.programs_content_group {
+    margin: auto;
+    @include tablet {
+        width: 100%;
+    }
+    @include laptop {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+// ALPHA - PROGRAMS
+.programs_content_alpha {
+    background-image: url('/assets/img/gwcc_programs_overview.jpg');
+    @extend %bg_props;
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    background-position: center center;
+
+    @include palm {
+        height: 50vh;
+    }
+    @include tablet {
+        height: 55vh;
+        width: 100%;
+    }
+    @include laptop {
+        height: 65vh;
+    }
+    @include tv {
+        height: 75vh;
+    }
+}
+.programs_alpha_group {
+    position: relative;
+}
+
+// BETA - PROGRAMS
+.programs_content_beta {
+    background-color: rgba($darkbluegreen, 0.85);
+    width: 85%;
+    margin: -10em auto 50px;
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    color: $white;
+
+    @include palm {
+        width: 75%;
+    }
+    @include tablet {
+        width: 65%;
+        margin-top: -12em;
+    }
+    @include laptop {
+        margin: initial;
+        position: absolute;
+        bottom: 4.5em;
+        right: -3em;
+        width: 60%;
+        padding: 40px;
+    }
+    @include desktop {
+        bottom: 5.5em;
+        right: -4em;
+    }
+    @include widescreen {
+        width: 50%;
+    }
+    @include tv {
+        right: -6em;
+    }
+
+    .programs_beta_title {
+        font-family: $font-1;
+        font-weight: $muli-black;
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+
+        @include palm {
+            font-size: 24px;
+        }
+        @include laptop {
+            font-size: 32px;
+        }
+    }
+    .programs_beta_single {
+        margin-bottom: 15px;
+
+        &.icon {
+            vertical-align: top;
+        }
+        .meta_details {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+            line-height: 1.2;
+
+            @include palm {
+                font-size: 18px;
+            }
+            @include laptop {
+                font-size: 20px;
+            }
+        }
+        .programs_beta_description {
+            padding-top: 10px;
+
+            @include palm {
+                padding-top: 15px;
+                font-size: 20px;
+            }
+            @include laptop {
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+// BODY - PROGRAMS
+.programs_body {
+    padding: 0 30px 50px;
+    line-height: 1.4;
+
+    @include palm {
+        font-size: 18px;
+        padding: 0 50px 50px;
+    }
+
+    p {
+        margin-bottom: 30px;
+    }
+}
+.overview_title {
+    text-transform: uppercase;
+    font-family: $font-1;
+    font-weight: $muli-black;
+    margin: 25px 0;
+    font-size: 20px;
+
+    @include palm {
+        width: 75%;
+        font-size: 24px;
+    }
+
+    @include laptop {
+        margin-top: 0;
+    }
+}
+.programs_list {
+    margin-top: 60px;
+
+    @include tablet {
+        width: 80%;
+    }
+
+    li {
+        padding-bottom: 25px;
+
+        @include tablet {
+            padding-bottom: 50px;
+        }
+        @include laptop {
+            text-indent: -0.6em;
+            padding-left: 3em;
+        }
+
+        &:before {
+            @include laptop {
+                content:"\232A";
+                display: inline-block;
+                color: $bluegreen;
+            }
+
+        }
+
+        div {
+            text-indent: 0em;
+            padding-top: 7px;
+        }
+
+        span {
+            font-weight: bold;
+            background: $bluegreen;
+            padding: 5px 9px;
+            display: inline-block;
+            width: 100%;
+
+            @include laptop {
+                display: initial;
+            }
+        }
+    }
+}
+.programs_small_title {
+    padding: 30px 0 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+
+    @include palm {
+        font-size: 20px;
+    }
+}
+.programs_small_text {
+    font-size: 16px;
+    margin-bottom: 5px;
+
+    @include palm {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+}

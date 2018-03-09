@@ -1,0 +1,43 @@
+<div id="programs_menu_container" class="programs_menu_btn">
+    <button id="js_programs_overlay_menu_desktop" type="button" class="programs_menu_button {% unless page.layout == "home" %} black_menu {% endunless %}">
+        <li>programs &#8711;</li>
+    </button>
+</div>
+<div class="programs_overlay programs_overlay_data noScroll">
+    <div class="single_template_outer_wrapper">
+        <button type="button" class="programs_overlay_close_desktop"></button>
+    </div>
+    <div class="programs_content_group">
+        <div class="programs_content_header_wrapper">
+            <div class="frow justify-between">
+                <div class="programs_content_header">
+                    <a href="/programs">{{ site.programs_overlay_title }}</a>
+                    <div class="programs_content_copy">
+                        {{ site.programs_overlay_summary }}
+                    </div>
+                </div>
+                <div class="programs_content_bg" style="background-image:url('{{ site.programs_overlay_img }}');"></div>
+            </div>
+        </div>
+
+        <div class="frow justify-between">
+            {% for item in site.programs %}
+            <div class="programs_content_single">
+                <div class="programs_content_title">
+                    <a href="{{ item.url }}">{{ item.title }}</a>
+                </div>
+                <div class="programs_content_subtitle">
+                    ({{ item.audience }})
+                </div>
+                <div class="programs_content_summary">
+                    {{ item.program_summary }}
+                </div>
+                <div class="programs_content_link">
+                    <a href="{{ item.url }}">Click for more info</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+</div>

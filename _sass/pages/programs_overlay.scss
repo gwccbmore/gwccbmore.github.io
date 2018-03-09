@@ -1,0 +1,356 @@
+#programs_menu_container {
+	height: 50px;
+	position: relative;
+	width: 130px;
+
+	@include laptop {
+		display: inline;
+		margin-right: 25px;
+	}
+}
+.programs_menu_button {
+	background: transparent !important;
+	border: none !important;
+	height: 100% !important;
+	position: relative !important;
+	-webkit-font-smoothing: antialiased;
+    width: 141px;
+    padding: 0 !important;
+	cursor: pointer;
+	font-family: $font-1;
+	font-size: inherit;
+
+	@include palm {
+		width: 170px;
+	}
+
+	@include laptop {
+		width: 150px;
+	}
+
+	&:hover {
+		@include laptop {
+			border-bottom: 3px solid;
+			padding-bottom: 3px;
+		}
+	}
+
+    li {
+        -webkit-font-smoothing: antialiased;
+		font-size: 24px !important;
+		font-family: $font-2;
+		font-weight: normal;
+
+		@include palm {
+			font-size: 28px !important;
+		}
+
+		@include tablet {
+			width: 170px !important;
+		}
+
+		@include laptop {
+			color: $white;
+			text-transform: uppercase;
+			font-size: 20px !important;
+			font-weight: bold;
+		}
+    }
+}
+.programs_menu_button.black_menu {
+	li {
+		color: $black;
+	}
+}
+.programs_menu_button:active {
+	position: relative;
+	top: 1px;
+}
+.programs_menu_button:hover {
+	-o-transition:.75s;
+    -ms-transition:.75s;
+    -moz-transition:.75s;
+    -webkit-transition:.75s;
+    transition:.75s;
+}
+.programs_menu_btn {
+
+}
+.programs_overlay {
+	background: linear-gradient(#47E7CE, #9198e5);
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 500;
+	overflow: scroll;
+
+	// Programs Content
+	.programs_content_group {
+	    @extend %clearfix;
+		padding: 0 25px 50px;
+
+		@include palm {
+			max-width: 450px;
+			margin: 0 auto;
+			padding: 25px 25px 50px;
+		}
+		@include tablet {
+			max-width: 750px;
+		}
+
+		@include laptop {
+			max-width: 900px;
+			width: 100%;
+		}
+
+		@include desktop {
+			max-width: 1050px;
+		}
+		@include widescreen {
+			max-width: 1300px;
+		}
+
+		@include tv {
+			max-width: 1500px;
+		}
+
+		@include tv-1900 {
+			max-width: 1700px;
+		}
+		.programs_content_header_wrapper {
+			margin: 25px 0;
+			position: relative;
+			@include tablet {
+				margin: 10px 0 50px;
+			}
+			@include laptop {
+				margin-bottom: 25px;
+			}
+			@include desktop {
+				margin-bottom: 50px;
+			}
+			@include widescreen {
+				margin-bottom: 100px;
+			}
+
+		}
+		.programs_content_header {
+			font-size: 36px;
+			font-weight: $muli-black;
+			font-family: $font-1;
+			text-transform: uppercase;
+			margin-bottom: 100px;
+
+			@include tablet {
+				margin-bottom: 40px;
+			}
+			@include laptop {
+				font-size: 54px;
+				width: 60%;
+			}
+			@include widescreen {
+				width: 50%;
+			}
+			@include tv {
+				width: 40%;
+			}
+
+			a {
+				color: $black;
+				padding-bottom: 2px;
+
+				&:hover {
+					border-bottom: 2px solid;
+				}
+			}
+		}
+		.programs_content_copy {
+			font-size: 18px;
+			font-family: $font-2;
+			margin-top: 40px;
+			line-height: 1.4;
+
+			@include tablet {
+				margin-top: 25px;
+			}
+		}
+		.programs_content_bg {
+			background-image:url('/assets/img/programs_overlay_cover.png');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			height: 400px;
+			position: absolute;
+			top: 10em;
+			opacity: 0.4;
+			width: 100%;
+
+			@include tablet {
+				position: relative;
+				background-position: center right;
+				height: 250px;
+				top: 0;
+			}
+
+			@include laptop {
+				width: 39%;
+			}
+			@include widescreen {
+				width: 50%;
+			}
+		}
+		.programs_content_single {
+			padding-bottom: 50px;
+			width: 100%;
+
+			@include tablet {
+				width: 47%;
+			}
+			@include laptop {
+				width: 30%;
+				padding-bottom: 75px;
+			}
+			@include widescreen {
+				width: 23%;
+			}
+
+
+			.programs_content_title {
+				font-family: $font-1;
+				font-weight: $muli-black;
+				font-size: 24px;
+				padding-bottom: 10px;
+				@include palm {
+					font-size: 22px;
+				}
+				@include laptop {
+					font-size: 28px;
+				}
+				@include tv {
+					font-size: 32px;
+				}
+
+				a {
+					color: $black;
+
+					&:hover {
+						@extend %underline_hover;
+					}
+				}
+			}
+			.programs_content_subtitle {
+				font-family: $font-1;
+				font-weight: $muli-black;
+				text-transform: uppercase;
+				padding-bottom: 15px;
+			}
+			.programs_content_summary {
+				font-size: 18px;
+				line-height: 1.2;
+
+				@include laptop {
+					font-size: 16px;
+				}
+
+				@include tv {
+					font-size: 18px;
+				}
+
+				span {
+					font-weight: $font-bold;
+				}
+			}
+		}
+	}
+}
+.programs_overlay_close,
+.programs_overlay_close_desktop {
+	background: url('/assets/img/icon_menu_close_v3.png') no-repeat center center !important;
+	background-size: contain !important;
+	border: none !important;
+	color: transparent !important;
+	float: right;
+	height: 35px !important;
+	outline: none;
+	overflow: hidden !important;
+	margin-right: 7px !important;
+	text-indent: 200% !important;
+	top: 7px !important;
+	margin-top: 7px !important;
+	width: 35px !important;
+	z-index: 100 !important;
+}
+.programs_overlay_data {
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+}
+.programs_overlay_open,
+.programs_overlay_open_desktop {
+	opacity: 1;
+	transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+	visibility: visible;
+}
+.programs_content_link {
+	margin-top: 15px;
+
+	a {
+		color: $black;
+		text-transform: uppercase;
+		font-family: $font-1;
+		font-weight: $muli-black;
+		font-size: 12px;
+		padding-bottom: 3px;
+		border-bottom: 2px solid;
+	}
+}
+
+// Programs Content
+.programs_content {
+    padding: 50px !important;
+
+    .program_item {
+        margin-bottom: 50px;
+
+        @include tablet {
+            width: 45%;
+        }
+        @include laptop {
+            margin-bottom: 75px;
+        }
+    }
+    .programs_title {
+        font-family: $font-1;
+        font-size: 36px;
+        font-weight: $muli-black;
+        margin-bottom: 10px;
+
+        @include laptop {
+            font-size: 50px;
+        }
+    }
+    .programs_group {
+        font-family: $font-1;
+        font-size: 20px;
+        font-weight: $muli-black;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+    .programs_text {
+        font-size: 18px;
+        line-height: 26px;
+
+        @include tablet {
+            height: 125px;
+        }
+        @include laptop {
+            font-size: 22px;
+            line-height: 34px;
+            height: 175px;
+        }
+    }
+}

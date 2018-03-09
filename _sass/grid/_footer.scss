@@ -1,0 +1,426 @@
+.site_footer {
+    position: relative;
+}
+.footer_solid_bg {
+    background-color: $bluegreen;
+}
+.footer_grid {
+    padding: 0 15px;
+
+
+    @include small {
+        padding: 0 50px;
+    }
+    @include palm {
+        width: 65%;
+        margin: auto;
+        max-width: 350px;
+    }
+    @include tablet {
+        width: 100%;
+        max-width: 675px;
+        padding: 4em 0;
+    }
+    @include laptop {
+        max-width: 900px;
+    }
+    @include desktop {
+        max-width: 1180px;
+    }
+    @include widescreen {
+        max-width: none;
+        padding: 4em 1em 4em 0;
+    }
+}
+.footer_logo {
+    margin: 0 auto 50px;
+    padding-top: 50px;
+
+    @include tablet {
+        width: 75px;
+        margin: 0 auto 50px;
+    }
+    @include laptop {
+        padding-top: 0;
+    }
+    @include desktop {
+        width: 5%;
+    }
+
+    .footer_logo_img {
+        background-image: url('/assets/img/gwcc-logo.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 65px;
+        height: 110px;
+        margin: auto;
+
+        &:hover {
+            background-image: url('/assets/img/gwcc_logo.gif');
+            width: 65px;
+            height: 110px;
+        }
+    }
+}
+.footer_all {
+    @include laptop {
+        width: 85%;
+    }
+    @include desktop {
+        width: 93%;
+    }
+}
+.footer_column {
+    width: 100%;
+    margin-bottom: 25px;
+
+    &:last-child {
+        margin-bottom:0;
+    }
+    @include tablet {
+        margin-bottom: 0;
+    }
+
+    &.left {
+        @include tablet {
+            width: 47%;
+        }
+        @include laptop {
+            width: 45%;
+        }
+    }
+
+    &.right {
+        @include tablet {
+            width: 43%;
+        }
+        @include laptop {
+            width: 40%;
+            max-width: 375px;
+        }
+        @include desktop {
+            max-width: none;
+            width: 52%;
+        }
+    }
+}
+
+.footer_content {
+    width: 100%;
+
+    @include laptop {
+        width: 75%;
+    }
+    @include desktop {
+        width: 48%;
+    }
+
+    &.left {
+        @include desktop {
+            width: 40%;
+        }
+
+    }
+    &.right {
+        @include desktop {
+            width: 51%;
+        }
+    }
+
+    .footer_content_title {
+        font-family: $font-1;
+        font-weight: $muli-black;
+        font-size: 24px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        line-height: 1;
+        margin-bottom: 25px;
+
+        @include tablet {
+            font-size: 20px;
+            width: 75%;
+        }
+        @include desktop {
+            margin-bottom: 15px;
+        }
+        @include tv {
+            width: 55%;
+        }
+    }
+    .footer_content_subtitle {
+        line-height: 1;
+        letter-spacing: 0.75px;
+        margin-bottom: 25px;
+
+        @include desktop {
+            margin-bottom: 0;
+        }
+
+        span {
+            font-size: 12px;
+        }
+    }
+    .footer_content_section {
+        .footer_content_header {
+            font-family: $font-1;
+            font-weight: $muli-black;
+            text-transform: uppercase;
+            padding-bottom: 10px;
+        }
+        .icon {
+            display: inline-block;
+            vertical-align: top;
+            padding-right: 15px;
+        }
+        .footer_content_meta {
+            display: inline-block;
+            width: 75%;
+
+            @include palm {
+                width: 80%;
+            }
+            @include tablet {
+                font-size: 14px;
+                width: 60%;
+            }
+
+            @include desktop {
+                width: 210px;
+            }
+
+            li a {
+                color: $black;
+
+                &:hover {
+                    border-bottom: 2px solid;
+                }
+            }
+        }
+        .footer_content_single {
+            margin-bottom: 25px;
+
+            @include tablet {
+                margin-bottom: 15px;
+            }
+            &:last-child {
+                @include tv {
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}
+.footer_alpha_title {
+    font-family: $font-1;
+    font-weight: $muli-black;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+.footer_menu {
+    width: 100%;
+
+    @include palm {
+        width: 50%;
+    }
+
+    @include laptop {
+        width: 35%;
+        margin-right: 50px;
+    }
+    @include tv {
+        margin-right: 30px;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    li {
+        width: 100%;
+        font-size: 16px;
+        font-weight: $font-bold;
+        text-transform: uppercase;
+        letter-spacing: 0.75px;
+        margin-bottom: 7px;
+
+        a {
+            color: $black;
+            text-decoration: none;
+
+            &:hover {
+                border-bottom: 2px solid;
+                padding-bottom: 2px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.social {
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+
+    @include tablet {
+        margin-top: 25px;
+        text-align: left;
+    }
+    @include desktop {
+        width: 45%;
+        margin-top: 0;
+        vertical-align: top;
+    }
+
+    .social_title {
+        font-family: $font-1;
+        font-weight: $muli-black;
+        text-transform: uppercase;
+        font-size: 18px;
+
+        @include tablet {
+            text-align: left;
+            font-size: 14px;
+        }
+    }
+    .social_group {
+        ul {
+            margin: 15px auto 0;
+
+            li {
+                display: inline-block;
+                margin-right: 15px;
+                cursor: pointer;
+
+                a {
+                    color: $black;
+
+                    &:hover {
+                        cursor: pointer;
+                        color: $pink;
+                    }
+                }
+            }
+        }
+    }
+}
+.site_footer_mini {
+    background-image:url('/assets/img/texture_background.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+    padding: 25px 0;
+
+    @include tablet {
+        padding: 75px 0 25px;
+    }
+    @include laptop {
+        padding: 50px 0 25px;
+    }
+    @include desktop {
+        padding: 40px 0 20px;
+    }
+
+    .backtotop {
+        width: 75px;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+
+        @include tablet {
+            margin: auto;
+        }
+
+        a {
+            color: $black;
+            text-decoration: none;
+        }
+
+        .icon {
+            position: relative;
+
+            &:hover {
+                -webkit-transition: 0.5s ease-in;
+                -moz-transition: 0.5s ease-in;
+                -o-transition: 0.5s ease-in;
+                transition: 0.5s ease-in;
+            }
+        }
+    }
+    .copyright {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        font-family: $font-1;
+        text-transform: uppercase;
+        letter-spacing: 0.75px;
+        font-weight: $font-bold;
+        font-size: 10px;
+        position: relative;
+        padding-top: 25px;
+    }
+    .icon_text {
+        font-weight: $font-bold;
+        font-size: 10px;
+        text-transform: uppercase;
+        line-height: 1;
+        margin-top: 6px;
+    }
+}
+
+
+.links_group {
+    width: 100%;
+
+    @include desktop {
+        width: 50%;
+    }
+}
+.footer_newsletter {
+    margin: 50px 0 30px;
+
+    @include tablet {
+        margin: 20px 0;
+    }
+    @include desktop {
+        margin: 20px 0 10px;
+    }
+}
+.footer_nonprofit {
+    margin-bottom: 35px;
+
+    @include desktop {
+        margin-bottom: 0;
+    }
+    .message {
+        font-family: $font-1;
+        font-weight: $muli-black;
+        margin-bottom: 25px;
+        line-height: 1.4;
+
+        @include tablet {
+            margin-bottom: 15px;
+        }
+        @include desktop {
+            display: inline-block;
+            font-size: 10px;
+            width: 60%;
+            font-weight: 700;
+            margin-bottom:15px;
+            margin-right: 10px;
+        }
+    }
+    .cta {
+        width: fit-content;
+        margin: auto;
+
+        @include tablet {
+            margin: 0;
+        }
+
+        @include desktop {
+            width: 75px;
+            display: inline-block;
+            vertical-align: top;
+        }
+    }
+}

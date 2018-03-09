@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <body>
+  	    <div class="se-pre-con"></div>
+
+        <div class="textured_bg">
+            {% include grid/page_header.html %}
+        </div>
+
+        <div class="highlights_group" style="background-image: url('{{ page.cover }}');">
+            <div class="discover_grid">
+                <div class="highlights_meta">
+                    <div class="highlights_bottom">
+                        <div class="frow justify-start">
+                            <div>
+                                <div class="featured_title">
+                                    {{ page.title }}
+                                </div>
+                                <div class="featured_summary">
+                                    {{ page.highlight_summary }}
+                                </div>
+                                <a class="brand_cta_v2" href="#content"><div class="featured_cta">
+                                    + Scroll Down
+                                </div></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="highlights_single_meta">
+                <div id="content">
+                    {{ content }}
+                </div>
+
+                {% include components/pagination.html %}
+            </div>
+        </div>
+
+        {% include grid/footer.html %}
+
+  </body>
+
+</html>

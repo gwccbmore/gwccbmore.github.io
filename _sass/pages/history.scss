@@ -1,0 +1,311 @@
+// History
+.history_group {
+    @extend .mission_group;
+    background-position: top left !important;
+    // height: 60vh;
+
+    @include desktop {
+        height: 70vh;
+    }
+}
+.history_meta {
+    padding: 50px 15px;
+
+    @include small {
+        padding: 75px 20px;
+    }
+
+    @include palm {
+        padding: 75px 50px;
+    }
+
+    @include laptop {
+        padding: 100px 50px;
+    }
+
+    @include desktop {
+        max-width: 1000px;
+        padding: 100px auto;
+    }
+
+    @include tv {
+        max-width: 1200px;
+    }
+
+    .history_title {
+        font-size: 24px;
+        font-family: $font-1;
+        font-weight: $muli-black;
+        line-height: 1.2;
+        margin-bottom: 30px;
+
+        @include tablet {
+            font-size: 30px;
+        }
+
+        @include laptop {
+            font-size: 36px;
+            margin-bottom: 50px;
+        }
+    }
+    .history_summary {
+        font-size: 18px;
+        line-height: 1.4;
+
+        @include tablet {
+            font-size: 20px;
+        }
+        @include laptop {
+            font-size: 22px;
+        }
+
+        p {
+            margin-bottom: 30px;
+        }
+    }
+}
+.history_content {
+    padding: 4em 0;
+
+    @include palm {
+        padding: 5em 0;
+        margin: auto;
+        width:90%;
+    }
+    @include tablet {
+        padding: 2.5em 0;
+    }
+    @include laptop {
+        width: 100%;
+        padding: 4em 0 0;
+    }
+    @include desktop {
+        padding-top: 8em;
+    }
+}
+.history_masthead {
+    text-align: center;
+    color: $white;
+    width:90%;
+    margin: auto;
+    @include mx_animated(1s,2s,1);
+
+    @include laptop {
+        width: 50%;
+        margin: 0;
+        text-align: left;
+        padding-top: 4em;
+    }
+    @include desktop {
+        width: 50%;
+
+    }
+    @include widescreen {
+        width: 45%;
+    }
+
+    .history_masthead_title {
+        font-size: 28px;
+        font-family: $font-1;
+        font-weight: $muli-black;
+        padding-bottom: 30px;
+        text-transform: uppercase;
+
+        @include palm {
+            font-size: 30px;
+        }
+        @include laptop {
+            font-size: 40px;
+        }
+    }
+    .history_masthead_subtitle {
+        font-size: 18px;
+
+        @include palm {
+            font-size: 24px;
+        }
+        @include tv {
+            font-size: 28px;
+        }
+    }
+}
+.timeline_wrapper {
+    position: relative;
+}
+.timeline_background {
+    background-image:url('/assets/img/timeline_graphic2.png');
+    position: absolute;
+    background-repeat-x: no-repeat;
+    height: 100%;
+    left: 2%;
+    width: 8%;
+    background-size: 100%;
+
+    @include tablet {
+        left: 3em;
+        width: 40px;
+    }
+    @include desktop {
+        left: 4em;
+        width: 50px;
+    }
+    @include widescreen {
+        left: 7em;
+    }
+    @include tv {
+        left: 9em;
+    }
+}
+.timeline_section {
+    padding: 65px 10px 65px 14%;
+
+    @include tablet {
+        width: 85%;
+        padding: 75px 3%;
+    }
+    @include laptop {
+        padding: 125px 3%;
+    }
+    @include widescreen {
+        width: 80%;
+    }
+
+    .timeline_single {
+        margin-bottom: 7em;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        @include laptop {
+            margin-bottom: 9em;
+        }
+        @include desktop {
+            margin-bottom: 11em;
+        }
+
+    }
+    .timeline_img_wrapper {
+        @include tablet {
+            width: 47%;
+        }
+        @include desktop {
+            max-width: 515px;
+        }
+        @include tv {
+            max-width: none;
+
+        }
+    }
+
+    .timeline_img {
+        margin-bottom: 45px;
+        width: 100%;
+
+        @include tablet {
+            margin-bottom: 0;
+        }
+    }
+    .timeline_content {
+        text-align: center;
+
+        @include tablet {
+            width: 45%;
+        }
+        @include tv {
+            width: 49%;
+        }
+
+        .timeline_date {
+            font-family: $font-1;
+            font-weight: $muli-black;
+            text-transform: uppercase;
+            padding-bottom: 7px;
+            color: $bluegreen;
+
+            @include palm {
+                font-size: 18px;
+            }
+        }
+        .timeline_copy {
+            margin-bottom: 75px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        .timeline_copy_title {
+            font-size: 20px;
+            font-family: $font-1;
+            font-weight: $muli-black;
+            text-transform: uppercase;
+            padding-bottom: 15px;
+
+            @include palm {
+                font-size: 24px;
+            }
+            @include tablet {
+                font-size: 22px;
+            }
+            @include laptop {
+                font-size: 26px;
+            }
+            @include desktop {
+                width: 80%;
+                margin: auto;
+            }
+            @include widescreen {
+                font-size: 32px;
+            }
+            @include tv {
+                font-size: 36px;
+            }
+        }
+        .timeline_copy_summary {
+            @include palm {
+                font-size: 18px;
+            }
+            @include laptop {
+                font-size: 20px;
+            }
+            @include desktop {
+                width: 80%;
+                margin: auto;
+            }
+            @include tv {
+                font-size: 24px;
+            }
+        }
+    }
+}
+.history_p {
+    margin-bottom: 50px;
+
+    span {
+        padding: 5px 9px;
+        background: $bluegreen;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    div {
+        margin-top: 15px;
+    }
+}
+.history_left_panel {
+    background-image: url('/assets/img/history_icon.png');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15vh;
+    width: 100%;
+    margin-bottom: 25px;
+    @include mx_animated(1s,2s,1);
+
+    @include tablet {
+        height: 25vh;
+    }
+    @include laptop {
+        width: 50%;
+        height: 45vh;
+    }
+}

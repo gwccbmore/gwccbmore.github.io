@@ -1,0 +1,286 @@
+// Header
+.site_header {
+    .logo_img {
+        width: 50px;
+
+		@include tablet {
+			width: 65px;
+		}
+    }
+    .menu_img {
+        width: 35px;
+    }
+}
+.logo {
+	position: relative;
+}
+
+// Overlay Logo Img
+.overlay_logo_img {
+	width: 50px;
+    position: relative;
+
+	@include tablet {
+		width: 63px;
+	}
+}
+
+// Overlay Menu Group
+.overlay_menu_group {
+	margin: 25px 25px 25px;
+
+	@include small {
+		max-width: 350px;
+		margin: 25px auto;
+	}
+	@include palm {
+		max-width: 500px;
+		width: 80%;
+	}
+	@include tablet {
+		max-width: 625px;
+        margin: 30px auto 75px;
+	}
+
+	.menu_group {
+		margin-bottom: 45px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+	}
+	.menu_group_title {
+		text-transform: uppercase;
+		font-family: $font-1;
+		font-weight: $muli-black;
+		letter-spacing: 0.8px;
+		padding-bottom: 7px;
+		border-bottom: 2px solid;
+		margin-bottom: 10px;
+
+		@include palm {
+			font-size: 18px;
+		}
+	}
+}
+
+// Overlay Responsive Menu Button
+.menu-btn {
+	@include laptop {
+		display: none;
+	}
+}
+.menu_desktop {
+	@include laptop {
+		height: 106px;
+	}
+	ul {
+		display: none;
+
+		@include laptop {
+			display: block;
+		}
+	}
+
+	li {
+		display: inline-block;
+		font-size: 20px;
+		padding-right: 15px;
+		font-weight: bold;
+
+		@include laptop {
+			padding-right: 25px;
+		}
+
+		&:last-child {
+			padding-right: 0;
+		}
+
+		a {
+			color: $white;
+			text-decoration: none;
+			text-transform: uppercase;
+
+			&:hover {
+				border-bottom: 3px solid;
+				padding-bottom: 3px;
+			}
+
+            &.box div {
+    			border: 2px solid $bluegreen;
+    			padding: 3px 5px;
+                background: $bluegreen;
+
+    			&:hover {
+    				background: $white;
+                    color: $black;
+                    border: 2px solid $white;
+    			}
+    		}
+            &.box.black_menu div {
+                background: $bluegreen;
+                border: 2px solid $bluegreen;
+
+                &:hover {
+                    border-color: $black;
+                    background: $black;
+                    color: $white;
+                    // color: $white;
+                }
+            }
+		}
+	}
+}
+.menu_desktop.black_menu ul li a {
+    color: $black;
+}
+
+#menu-container {
+	height: 50px;
+	position: relative;
+	width: 50px;
+}
+.menuButton {
+	background: transparent !important;
+	border: none !important;
+	height: 100% !important;
+	position: relative !important;
+    text-align: right;
+	width: 100% !important;
+	-webkit-font-smoothing: antialiased;
+    width: 50px;
+}
+.menuButton:active {
+	position: relative;
+	top: 1px;
+}
+.menuButton:hover {
+	-o-transition:.75s;
+    -ms-transition:.75s;
+    -moz-transition:.75s;
+    -webkit-transition:.75s;
+    transition:.75s;
+}
+
+// Overlay Functionality + Design
+.overlay {
+	background-color: $bluegreen;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 500;
+	overflow: scroll;
+}
+.overlay nav {
+	position: relative;
+}
+.overlay ul {
+	display: inline-block;
+	list-style: none;
+	padding: 0;
+	position: relative;
+
+	@include tablet {
+		width: 100%;
+	}
+}
+.overlay ul li {
+	font-size: 24px;
+	font-weight: bold;
+	margin:0;
+	margin-bottom: 10px;
+	padding: 0;
+	text-transform: capitalize;
+	width: 100%;
+
+	@include palm {
+		font-size: 28px;
+	}
+
+	@include tablet {
+		width: 250px;
+	}
+}
+.overlay ul li a {
+	color: $black;;
+	text-decoration: none;
+    padding-bottom: 3px;
+}
+.overlay ul li a:hover {
+    border-bottom: 2px solid;
+}
+.overlay-close {
+	background: url('/assets/img/icon_menu_close_v2.png') no-repeat center center !important;
+	background-size: contain !important;
+	border: none !important;
+	color: transparent !important;
+	float: right;
+	height: 35px !important;
+	outline: none;
+	overflow: hidden !important;
+	margin-right: 7px !important;
+	text-indent: 200% !important;
+	top: 7px !important;
+	margin-top: 7px !important;
+	width: 35px !important;
+	z-index: 100 !important;
+}
+.overlay-data {
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+}
+.overlay-open {
+	opacity: 1;
+	transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+	visibility: visible;
+}
+.menu-content {
+	bottom: 40px;
+	font-size: 19px;
+	font-weight: bold;
+	opacity: 0.7;
+	position: fixed;
+	width: 88% !important;
+
+	@include tablet {
+		width: 40% !important;
+	}
+
+	@include desktop {
+		width: 30% !important;
+	}
+}
+
+// Header GIF Logo
+.header_logo {
+    position: relative;
+
+    .header_logo_img {
+        background-image: url('/assets/img/gwcc-logo-white.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 45px;
+        height: 75px;
+        margin: auto;
+
+        &:hover {
+            background-image: url('/assets/img/gwcc_logo_white.gif');
+            width: 45px;
+            height: 75px;
+        }
+
+        &.black_logo {
+            background-image: url('/assets/img/gwcc-logo.png');
+
+            &:hover {
+                background-image: url('/assets/img/gwcc_logo.gif');
+            }
+        }
+    }
+}
