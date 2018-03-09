@@ -1,33 +1,40 @@
----
+# Site settings
 title: GWCC
-timezone: UTC
-collections:
-  people:
-    title: People
-    output: true
-    permalink: "/people/:title/"
-  posts:
-    title: Posts
-    output: true
-  programs:
-    title: Programs
-    output: true
-    permalink: "/programs/:title/"
-  team:
-    title: Team
-    output: false
-  timeline:
-    title: Timeline
-    output: false
-  uploads:
-    title: Uploads
-    output: true
-email: admin@greenmountwestcc.org
-description: 'Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+email: montier.kess@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-<<<<<<< HEAD
+# Build settings
+markdown: kramdown
+theme: minima
+permalink: /highlights/:title/
+
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Setup Collections
+collections:
+  programs:
+    output: true
+    permalink: /programs/:title/
+
+  people:
+    output: true
+    permalink: /people/:title/
+
+  team:
+    output: false
+
+  timeline:
+    output: false
+
   docs:
     output: false
 
@@ -36,35 +43,25 @@ description: 'Write an awesome description for your new site here. You can edit 
 
 # GWCC Sponsors
 sponsor1_img: /assets/img/logo_rwd.png
-=======
-'
-baseurl: ''
-url: ''
-markdown: kramdown
-theme: minima
-permalink: "/highlights/:title/"
-gems:
-- jekyll-feed
-exclude:
-- Gemfile
-- Gemfile.lock
-sponsor1_img: "/assets/img/logo_rwd.png"
->>>>>>> f498a3517bcf2a61b853af981bc9e2980bfe442a
 sponsor1_text: Robert Deutsch Foundation
-sponsor1_url: https://www.rwdfoundation.org/
-sponsor2_img: "/assets/img/logo_gwca.png"
+sponsor1_url: https://www.rwdfoundation.org
+
+sponsor2_img: /assets/img/logo_gwca.png
 sponsor2_text: Greenmount West Community Association
-sponsor2_url: http://www.greenmountwest.org/
-sponsor3_img: "/assets/img/logo_bma.png"
+sponsor2_url: http://www.greenmountwest.org
+
+sponsor3_img: /assets/img/logo_bma.png
 sponsor3_text: Greenmount West Community Association
-sponsor3_url: https://artbma.org/
+sponsor3_url: https://artbma.org
+
+# Social
 facebook: gwccbaltimore
 twitter: gwccbaltimore
 youtube: gwccbaltimore
 instagram: gwccbaltimore
-programs_overlay_img: "/assets/img/programs_overlay_cover.png"
+email: admin@greenmountwestcc.org
+
+# Programs Overlay
+programs_overlay_img: /assets/img/programs_overlay_cover.png
 programs_overlay_title: Programs
-programs_overlay_summary: 'The Greenmount West Community Center, will offer computer
-  classes and wellness classes for adults, after-school and summer programs designed
-  to help children build leadership skills, earn good grades, and learn sufficiency
-  skills, while gaining exposure to positive role models. These programs include:'
+programs_overlay_summary: 'The Greenmount West Community Center, will offer computer classes and wellness classes for adults, after-school and summer programs designed to help children build leadership skills, earn good grades, and learn sufficiency skills, while gaining exposure to positive role models. These programs include:'

@@ -96,7 +96,7 @@ a {
   .accordion-item.active .icon {
     background: #fefefe; }
     .accordion-item.active .icon:before {
-      background: #ad8c94; }
+      background: #c6b48f; }
     .accordion-item.active .icon:after {
       width: 0; }
   .accordion-item .heading {
@@ -1643,7 +1643,7 @@ body.noScroll {
   .docs-accordion-item.active .docs-icon {
     background: #fefefe; }
     .docs-accordion-item.active .docs-icon:before {
-      background: #ada5a4; }
+      background: #9b9896; }
     .docs-accordion-item.active .docs-icon:after {
       width: 0; }
   .docs-accordion-item .docs-heading {

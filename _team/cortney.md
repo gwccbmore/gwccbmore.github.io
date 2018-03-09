@@ -1,10 +1,12 @@
 ---
 title: Cortney
-position: 0
-avatar: "/assets/img/staff_cortney.jpg"
-summary: 
-'["//"]': 
+avatar: /assets/img/staff_cortney.jpg
+position: Youth Worker
+summary:
+
+[//]: #Team
 team: staff
+
+[//]: # Sort
 order: 6
 ---
-

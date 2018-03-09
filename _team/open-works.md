@@ -1,11 +1,13 @@
 ---
 title: Open Works
-position: 0
-avatar: "/assets/img/partner_openworks.jpg"
-summary: 
+avatar: /assets/img/partner_openworks.jpg
+position: Partner
+summary:
 external_link: http://www.openworksbmore.com/
-'["//"]': 
-team: partners
+
+[//]: #Team
+team: "partners"
+
+[//]: # Sort
 order: 3
 ---
-
