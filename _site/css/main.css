@@ -96,7 +96,7 @@ a {
   .accordion-item.active .icon {
     background: #fefefe; }
     .accordion-item.active .icon:before {
-      background: #c49994; }
+      background: #c5d1a9; }
     .accordion-item.active .icon:after {
       width: 0; }
   .accordion-item .heading {
@@ -1616,7 +1616,7 @@ body.noScroll {
       color: #070707;
       text-decoration: none;
       border-bottom: 1px solid;
-      padding-bottom: 4px; }
+      padding-bottom: 2px; }
       .docs_masthead p a:hover {
         color: #FA879E; }
 
@@ -1643,7 +1643,7 @@ body.noScroll {
   .docs-accordion-item.active .docs-icon {
     background: #fefefe; }
     .docs-accordion-item.active .docs-icon:before {
-      background: #b0d3be; }
+      background: #ccbaaf; }
     .docs-accordion-item.active .docs-icon:after {
       width: 0; }
   .docs-accordion-item .docs-heading {
@@ -1702,6 +1702,11 @@ body.noScroll {
           font-size: 24px; } }
       .docs-accordion-item .docs-content p img {
         width: 100%; }
+    .docs-accordion-item .docs-content a {
+      color: #070707;
+      border-bottom: 1px solid; }
+      .docs-accordion-item .docs-content a:hover {
+        color: #FA879E; }
     @media screen and (min-width: 992px) {
       .docs-accordion-item .docs-content {
         line-height: 1.75; } }

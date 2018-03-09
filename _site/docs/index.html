@@ -938,14 +938,47 @@ When finished, click Save.</p>
                                 <div class="docs-accordion-item potato">
     <a href="#" class="docs-heading">
         <div class="docs-icon"></div>
-        <div class="docs-title">To add or remove programming classes</div>
+        <div class="docs-title">To remove programming classes</div>
     </a>
 
     <div class="docs-content">
         <p>
             <p>In siteleaf panel, select Programs.  Select the Program that you want to modify.</p>
 
-<p>Select Save.</p>
+<p>To delete the program, scroll to the bottom of the program info and find the ‘Delete’ button.  Select delete.</p>
+
+<p>See <a href="#" data-featherlight="/assets/img/docs/programs-1.png">example</a></p>
+
+        </p>
+    </div>
+</div>
+
+                            
+                                <div class="docs-accordion-item potato">
+    <a href="#" class="docs-heading">
+        <div class="docs-icon"></div>
+        <div class="docs-title">To add programming classes</div>
+    </a>
+
+    <div class="docs-content">
+        <p>
+            <p>In siteleaf panel, select Programs.  Select add ‘New Program’.</p>
+
+<p>Update the following variables:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>+ audience
++ program_summary
++ cover_image
++ days
++ time
+</code></pre>
+</div>
+
+<p>When adding a new program, this will populate on the programs page at siteurl/programs/ and will also populate on the programs overlay.</p>
+
+<p>The ‘audience’ variable describes who this programming is for.  The ‘program_summary’ variable describes a few details about this programming class.  The ‘cover_image’ variable will show the image that is shown on the programming page for each class.  The ‘days’ and ‘time’ variables will share when the class is available.</p>
+
+<p>See <a href="#" data-featherlight="/assets/img/docs/programs-2.png">example</a></p>
 
         </p>
     </div>
@@ -968,7 +1001,19 @@ When finished, click Save.</p>
 
     <div class="docs-content">
         <p>
-            <p>In siteleaf panel, select Pages.  Select About. Check out the metadata, ‘about_video_id’.  Similar to changing the Noisy Films video, this has to be a vimeo link.  Here is an example vimeo link: https://vimeo.com/242484745.  For the metadata, only use the numbers from the link to replace in this metadata section. Select Save.</p>
+            <p>The calendar is managed by a third party service.  Login to <a href="https://tockify.com">Tockify</a>.</p>
+
+<p>After logging in, open the calendar editor.</p>
+
+<p>Create a new event and save the changes.</p>
+
+<p>If the event repeats weekly, make sure to add in that information.</p>
+
+<p>If the event repeats more than one day a week, create a new event and select the additional day of the week that programming happens.</p>
+
+<p>This will update automatically on the GWCC website.</p>
+
+<p>See <a href="#" data-featherlight="/assets/img/docs/calendar-1.png">example</a></p>
 
         </p>
     </div>
@@ -989,13 +1034,23 @@ When finished, click Save.</p>
 
     <div class="docs-content">
         <p>
-            <p>In siteleaf panel, select Settings.  Look for this variable:</p>
+            <p>In siteleaf, select Team.  Select team member to remove.  Scroll to bottom of team members page and delete document</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>+ taylors_job_application
+<p>To add a new team member, select add ‘New Document’.  Fill out the variables:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>+ avatar
++ team
++ order
 </code></pre>
 </div>
 
-<p>update this information to reflect where the new job application link should point to.  Select Save.  This update will impact where the career items link to.</p>
+<p>‘avatar’ is the image for the team member.</p>
+
+<p>‘team’ should say ‘staff’ or ‘partners’.</p>
+
+<p>‘order’ represents the order in which the team members are shown.  If this number is 1, this person will show first, as long as no other team member has ‘1’ for the ‘order’ variable.</p>
+
+<h2 id="select-save">Select Save.</h2>
 
         </p>
     </div>
@@ -1010,34 +1065,7 @@ When finished, click Save.</p>
 
     <div class="docs-content">
         <p>
-            <p>In siteleaf panel, select Settings.  Look for this variable:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>+ taylors_job_application
-</code></pre>
-</div>
-
-<p>update this information to reflect where the new job application link should point to.  Select Save.  This update will impact where the career items link to.</p>
-
-        </p>
-    </div>
-</div>
-
-                            
-                        </div>
-
-                        <div class="docs-accordion-group">
-                            <div class="docs-accordion_title">policy</div>
-                            
-                            
-                                <div class="docs-accordion-item potato">
-    <a href="#" class="docs-heading">
-        <div class="docs-icon"></div>
-        <div class="docs-title">To add a new policy</div>
-    </a>
-
-    <div class="docs-content">
-        <p>
-            <p>Login to typeform.com and use login information to access the account.</p>
+            <p>Same instructions apply as Adding and Removing Team Members.  The ‘team’ variable should be ‘partners’.</p>
 
         </p>
     </div>
@@ -1058,7 +1086,9 @@ When finished, click Save.</p>
 
     <div class="docs-content">
         <p>
-            <p>Login to typeform.com and use login information to access the account.</p>
+            <p>Login to typeform.com and use login information to access the account. There are two forms that can be updated (Youth Workers &amp; Volunteers)</p>
+
+<p>See <a href="#" data-featherlight="/assets/img/docs/forms-1.png">example</a></p>
 
         </p>
     </div>
@@ -1079,7 +1109,19 @@ When finished, click Save.</p>
 
     <div class="docs-content">
         <p>
-            <p><a href="#" data-featherlight="/assets/img/easter_eggs.png">Open image in lightbox</a></p>
+            <p>In siteleaf, go to Settings. Check for these variables:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>+ facebook
++ twitter
++ youtube
++ instagram
++ email
+</code></pre>
+</div>
+
+<p>Update this and select Save.</p>
+
+<p>See <a href="#" data-featherlight="/assets/img/docs/social-1.png">example</a></p>
 
         </p>
     </div>
@@ -1100,7 +1142,17 @@ When finished, click Save.</p>
 
     <div class="docs-content">
         <p>
-            <p>Login to typeform.com and use login information to access the account.</p>
+            <p>Login to Mailchimp.com and use login information to access the account.</p>
+
+<p>Select Lists and check out the information in each list.</p>
+
+<p>GWCC Youth Workers List allows anyone who has signed up to be a youth worker through the form, to have their email addresses added to this list.</p>
+
+<p>GWCC Volunteers List allows anyone who has signed up to be a volunteer through the form, to have their email addresses added to this list.</p>
+
+<p>GWCC General List allows anyone who has visited the website and submitted their email address through the footer in the website.</p>
+
+<p>See <a href="#" data-featherlight="/assets/img/docs/newsletter-1.png">example</a></p>
 
         </p>
     </div>
@@ -1115,7 +1167,46 @@ When finished, click Save.</p>
 
     <div class="docs-content">
         <p>
-            <p>Login to typeform.com and use login information to access the account.</p>
+            <p>Login to Mailchimp.com and use login information to access the account.</p>
+
+<p>Select Campaigns.</p>
+
+<p>Select Create Campaign.</p>
+
+<p>Create an email</p>
+
+<p>Type in the name of the campaign and select Begin.</p>
+
+<p>See <a href="#" data-featherlight="/assets/img/docs/newsletter-2.png">example</a></p>
+
+        </p>
+    </div>
+</div>
+
+                            
+                        </div>
+
+                        <div class="docs-accordion-group">
+                            <div class="docs-accordion_title">programs overlay</div>
+                            
+                            
+                                <div class="docs-accordion-item potato">
+    <a href="#" class="docs-heading">
+        <div class="docs-icon"></div>
+        <div class="docs-title">To update programs overlay</div>
+    </a>
+
+    <div class="docs-content">
+        <p>
+            <p>In siteleaf, go to Settings.  Check for these variables:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>+ programs_overlay_img
++ programs_overlay_title
++ programs_overlay_summary
+</code></pre>
+</div>
+
+<p>See <a href="#" data-featherlight="/assets/img/docs/programs-overlay-1.png">example</a></p>
 
         </p>
     </div>

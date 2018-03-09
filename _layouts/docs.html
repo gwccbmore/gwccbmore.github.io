@@ -89,14 +89,6 @@
                         </div>
 
                         <div class="docs-accordion-group">
-                            <div class="docs-accordion_title">policy</div>
-                            {% assign docs-category = site.docs | where:"docs-category","policy" %}
-                            {% for item in docs-category %}
-                                {% include components/docs_accordion_item.html %}
-                            {% endfor %}
-                        </div>
-
-                        <div class="docs-accordion-group">
                             <div class="docs-accordion_title">forms</div>
                             {% assign docs-category = site.docs | where:"docs-category","forms" %}
                             {% for item in docs-category %}
@@ -115,6 +107,14 @@
                         <div class="docs-accordion-group">
                             <div class="docs-accordion_title">newsletter</div>
                             {% assign docs-category = site.docs | where:"docs-category","newsletter" %}
+                            {% for item in docs-category %}
+                                {% include components/docs_accordion_item.html %}
+                            {% endfor %}
+                        </div>
+
+                        <div class="docs-accordion-group">
+                            <div class="docs-accordion_title">programs overlay</div>
+                            {% assign docs-category = site.docs | where:"docs-category","programs-overlay" %}
                             {% for item in docs-category %}
                                 {% include components/docs_accordion_item.html %}
                             {% endfor %}

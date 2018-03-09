@@ -1,11 +1,19 @@
 ---
-title: People 1
 docs-question: To add or remove people from team
 docs-category: people
 ---
+In siteleaf, select Team.  Select team member to remove.  Scroll to bottom of team members page and delete document
 
-In siteleaf panel, select Settings.  Look for this variable:
+To add a new team member, select add 'New Document'.  Fill out the variables:
 
-    + taylors_job_application
+    + avatar
+    + team
+    + order
 
-update this information to reflect where the new job application link should point to.  Select Save.  This update will impact where the career items link to.
+'avatar' is the image for the team member.  
+
+'team' should say 'staff' or 'partners'.
+
+'order' represents the order in which the team members are shown.  If this number is 1, this person will show first, as long as no other team member has '1' for the 'order' variable.
+
+## Select Save.
