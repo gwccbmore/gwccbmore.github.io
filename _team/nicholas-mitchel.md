@@ -1,11 +1,10 @@
 ---
 title: Nicholas Mitchel
-position: 0
-avatar: "/assets/img/staff_nicholas.jpg"
-team: staff
-mail: nick@noisytenants.com
-link: http://www.noisytenants.com
-'["//"]': 
+avatar: /assets/img/staff_nicholas.jpg
+position: "Community Innovation Manager"
+
+team: "staff"
+
+[//]: # Sort
 order: 2
 ---
-
