@@ -1,9 +1,8 @@
 ---
 title: GWCA
-position: 0
-avatar: "/assets/img/partner_gwca.jpg"
+avatar: /assets/img/partner_gwca.jpg
+cc_position: partner
 external_link: http://www.greenmountwest.org/
-team: partners
+team: "partners"
 order: 2
 ---
-

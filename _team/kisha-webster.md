@@ -1,8 +1,7 @@
 ---
 title: Kisha Webster
-position: 0
-avatar: "/assets/img/staff_kisha.jpg"
+avatar: /assets/img/staff_kisha.jpg
+cc_position: 'Executive Director'
 team: staff
 order: 1
 ---
-
