@@ -1,7 +1,9 @@
 ---
+title: Discover 2
 docs-question: To update three column section (Volunteer, Donate, Space Use)
 docs-category: discover
 ---
+
 In siteleaf panel, select Pages.  Go to 'Discover' page.  
 
 Variables are:

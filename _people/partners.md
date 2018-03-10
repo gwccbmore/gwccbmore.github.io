@@ -1,5 +1,6 @@
 ---
-layout: people
 title: Partners
+layout: people
 order: 2
 ---
+
