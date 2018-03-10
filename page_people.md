@@ -1,8 +1,8 @@
 ---
-layout: people
 title: People
-permalink: /people/
-
-[//]: #Page Header
+permalink: "/people/"
+layout: people
+'["//"]': 
 circle: "#47E7CE"
 ---
+

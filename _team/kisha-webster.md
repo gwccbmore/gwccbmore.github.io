@@ -1,12 +1,10 @@
 ---
 title: Kisha Webster
-avatar: /assets/img/staff_kisha.jpg
-position: Executive Director
+position: 0
+avatar: "/assets/img/staff_kisha.jpg"
 summary: 
-
-[//]: #Team
+'["//"]': 
 team: staff
-
-[//]: # Sort
 order: 1
 ---
+
