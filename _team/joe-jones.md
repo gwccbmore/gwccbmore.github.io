@@ -1,12 +1,10 @@
 ---
 title: Tavon
-avatar: /assets/img/staff_tavon.jpg
-position: Youth Worker
+position: 0
+avatar: "/assets/img/staff_tavon.jpg"
 summary: 
-
-[//]: #Team
+'["//"]': 
 team: staff
-
-[//]: # Sort
 order: 4
 ---
+
