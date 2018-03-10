@@ -1,7 +1,8 @@
 ---
 title: Tavon
-avatar: /assets/img/staff_tavon.jpg
-position: Youth Worker
+position: 0
+avatar: "/assets/img/staff_tavon.jpg"
 team: staff
 order: 4
 ---
+

@@ -1,7 +1,8 @@
 ---
 title: Cortney
-avatar: /assets/img/staff_cortney.jpg
-position: Youth Worker
+position: 0
+avatar: "/assets/img/staff_cortney.jpg"
 team: staff
 order: 6
 ---
+

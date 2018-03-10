@@ -1,8 +1,9 @@
 ---
 title: Noisy Tenants
-avatar: /assets/img/partner_noisytenants.jpg
-position: partner
+position: 0
+avatar: "/assets/img/partner_noisytenants.jpg"
 external_link: http://www.noisytenants.com
-team: "partners"
+team: partners
 order: 6
 ---
+

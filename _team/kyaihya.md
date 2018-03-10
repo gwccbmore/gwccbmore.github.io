@@ -1,7 +1,8 @@
 ---
 title: Kyaih'ya
-avatar: /assets/img/staff_kyaih_ya.jpg
-position: Youth Worker
+position: 0
+avatar: "/assets/img/staff_kyaih_ya.jpg"
 team: staff
 order: 5
 ---
+

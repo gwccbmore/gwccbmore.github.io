@@ -1,8 +1,9 @@
 ---
 title: BMA
-avatar: /assets/img/partner_bma.jpg
-position: partner
+position: 0
+avatar: "/assets/img/partner_bma.jpg"
 external_link: http://www.artbma.org
-team: "partners"
+team: partners
 order: 3
 ---
+
