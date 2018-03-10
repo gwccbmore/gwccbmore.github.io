@@ -1,9 +1,7 @@
 ---
-title: Community 2
 docs-question: To update and add resources
 docs-category: services
 ---
-
 In siteleaf panel, select Resources. Click on Add New Resources in upper right hand corner.
 
 Fill out the following variables.  There is placeholder text to guide you.
