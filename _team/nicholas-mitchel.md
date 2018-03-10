@@ -1,9 +1,7 @@
 ---
 title: Nicholas Mitchel
-position: 0
-avatar: "/assets/img/staff_nicholas.jpg"
-team: staff
-'["//"]': 
+avatar: /assets/img/staff_nicholas.jpg
+position: "Community Innovation Manager"
+team: "staff"
 order: 2
 ---
-

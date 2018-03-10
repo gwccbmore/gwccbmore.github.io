@@ -1,8 +1,9 @@
 ---
-title: History
-permalink: "/history/"
 layout: bronze
-'["//"]': 
+title: History
+permalink: /history/
+
+[//]: # Page Header
 circle: "#47E7CE"
 ---
 
