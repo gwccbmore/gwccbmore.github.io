@@ -1,7 +1,9 @@
 ---
+title: Highlights 1
 docs-question: Select a new featured highlight
 docs-category: highlights
 ---
+
 In siteleaf panel, select Posts.  Select the post that you would like to be featured.  Update the variable below.
 
     + featured
