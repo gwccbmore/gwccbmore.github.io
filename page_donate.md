@@ -1,8 +1,8 @@
 ---
-layout: donate
 title: Donate
-permalink: /donate/
-
-[//]: # Page Header
+permalink: "/donate/"
+layout: donate
+'["//"]': 
 circle: "#5B978E"
 ---
+

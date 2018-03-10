@@ -1,7 +1,9 @@
 ---
+title: Discover 1
 docs-question: To update mission and vision statements
 docs-category: discover
 ---
+
 In siteleaf panel, select Pages.  Go to 'Discover' page.  
 
 Variables are:
