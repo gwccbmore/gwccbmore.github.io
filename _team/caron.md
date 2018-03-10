@@ -1,6 +1,6 @@
 ---
-title: Tajuan
-avatar: /assets/img/staff_tajuan.jpg
+title: Caron
+avatar: /assets/img/staff_caron.jpg
 position: Youth Worker
 
 
@@ -8,5 +8,5 @@ position: Youth Worker
 team: staff
 
 [//]: # Sort
-order: 6
+order: 7
 ---
