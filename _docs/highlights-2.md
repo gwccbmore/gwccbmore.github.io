@@ -1,9 +1,7 @@
 ---
-title: Highlights 2
 docs-question: Create a highlight (image, video, link or slideshow)
 docs-category: highlights
 ---
-
 In siteleaf panel, select Posts.  Select to add a New Post.  
 
 ## To include a video, add this content to the 'Markdown' area:

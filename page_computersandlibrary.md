@@ -1,8 +1,9 @@
 ---
-title: Computers and Library
-permalink: "/computers-and-library/"
 layout: bronze
-'["//"]': 
+title: Computers and Library
+permalink: /computers-and-library/
+
+[//]: # Page Header
 circle: "#47E7CE"
 ---
 

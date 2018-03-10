@@ -96,7 +96,7 @@ a {
   .accordion-item.active .icon {
     background: #fefefe; }
     .accordion-item.active .icon:before {
-      background: #c39890; }
+      background: #95a2c2; }
     .accordion-item.active .icon:after {
       width: 0; }
   .accordion-item .heading {
@@ -653,6 +653,9 @@ a {
   width: fit-content;
   display: block;
   margin: auto; }
+  @media screen and (min-width: 768px) {
+    .donate_btn {
+      margin: 0; } }
   .donate_btn div {
     text-transform: uppercase;
     font-family: "Muli", sans-serif;
@@ -845,7 +848,6 @@ a {
         width: 80%; } }
     @media screen and (min-width: 768px) {
       .footer_content .footer_content_section .footer_content_meta {
-        font-size: 14px;
         width: 60%; } }
     @media screen and (min-width: 1200px) {
       .footer_content .footer_content_section .footer_content_meta {
@@ -1643,7 +1645,7 @@ body.noScroll {
   .docs-accordion-item.active .docs-icon {
     background: #fefefe; }
     .docs-accordion-item.active .docs-icon:before {
-      background: #9ea4ce; }
+      background: #bfadb7; }
     .docs-accordion-item.active .docs-icon:after {
       width: 0; }
   .docs-accordion-item .docs-heading {

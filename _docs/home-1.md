@@ -1,9 +1,7 @@
 ---
-title: Home 1
 docs-question: To update homepage title, subtitle and summary text
 docs-category: home
 ---
-
 In siteleaf panel, select Pages.  Select 'Home'. Update these variables:
 
     + masthead_title
