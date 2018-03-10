@@ -1,7 +1,8 @@
 ---
 title: Caron
-position: 0
+position: Youth Worker
 avatar: "/assets/img/staff_caron.jpg"
+'"//"': 
 team: staff
 order: 7
 ---
