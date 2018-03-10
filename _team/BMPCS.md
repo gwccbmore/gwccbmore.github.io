@@ -1,7 +1,7 @@
 ---
 title: BMPCS
 avatar: /assets/img/partner_bmpcs.jpg
-position: Partner
+position: "Partner"
 
 external_link: https://baltimoremontessoricharter.org/
 
