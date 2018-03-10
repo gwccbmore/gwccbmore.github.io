@@ -1,7 +1,9 @@
 ---
+title: Social 1
 docs-question: To add or update social media accounts
 docs-category: social
 ---
+
 In siteleaf, go to Settings. Check for these variables:
 
     + facebook
