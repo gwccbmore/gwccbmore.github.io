@@ -1,12 +1,9 @@
 ---
 title: Caron
-avatar: /assets/img/staff_caron.jpg
-position: Youth Worker
-
-
-[//]: #Team
+position: 0
+avatar: "/assets/img/staff_caron.jpg"
+'["//"]': 
 team: staff
-
-[//]: # Sort
 order: 7
 ---
+

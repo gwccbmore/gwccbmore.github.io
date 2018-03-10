@@ -1,7 +1,9 @@
 ---
+title: Programs 1
 docs-question: To remove programming classes
 docs-category: programs
 ---
+
 In siteleaf panel, select Programs.  Select the Program that you want to modify.
 
 To delete the program, scroll to the bottom of the program info and find the 'Delete' button.  Select delete.

@@ -1,11 +1,11 @@
 ---
-layout: bronze
 title: Give
-permalink: /give/
-
-[//]: # Page Header
+permalink: "/give/"
+layout: bronze
+'["//"]': 
 circle: "#47E7CE"
 ---
+
 <div class="discover_grid">
     <div class="discover_prime_single">
         <div class="frow justify-between">
