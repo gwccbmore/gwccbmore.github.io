@@ -1,12 +1,10 @@
 ---
 title: Kyaih'ya
-avatar: /assets/img/staff_kyaih_ya.jpg
-position: Youth Worker
-summary:
-
-[//]: #Team
+position: 0
+avatar: "/assets/img/staff_kyaih_ya.jpg"
+summary: 
+'["//"]': 
 team: staff
-
-[//]: # Sort
 order: 5
 ---
+

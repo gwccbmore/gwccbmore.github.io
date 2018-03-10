@@ -1,13 +1,10 @@
 ---
 title: Dallas Nichols
-avatar: /assets/img/people_placeholder2.jpg
-position: partner
-
+position: 0
+avatar: "/assets/img/people_placeholder2.jpg"
 external_link: http://www.baltimorecityschools.org/39
-
-[//]: #Team
-team: "partners"
-
-[//]: # Sort
+'["//"]': 
+team: partners
 order: 5
 ---
+
