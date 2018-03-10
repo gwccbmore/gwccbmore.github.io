@@ -1,9 +1,7 @@
 ---
-title: Programs 2
 docs-question: To add programming classes
 docs-category: programs
 ---
-
 In siteleaf panel, select Programs.  Select add 'New Program'.
 
 Update the following variables:
