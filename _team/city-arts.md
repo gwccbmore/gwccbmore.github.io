@@ -1,11 +1,13 @@
 ---
 title: City Arts
-position: 0
-avatar: "/assets/img/partner_cityarts.jpg"
-summary: 
+avatar: /assets/img/partner_cityarts.jpg
+position: Partner
+summary:
 external_link: https://www.livecityarts.com/
-'["//"]': 
-team: partners
+
+[//]: #Team
+team: "partners"
+
+[//]: # Sort
 order: 4
 ---
-
