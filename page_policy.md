@@ -1,9 +1,8 @@
 ---
-layout: bronze
 title: Policy
-permalink: /policy/
-
-[//]: # Page Header
+permalink: "/policy/"
+layout: bronze
+'["//"]': 
 circle: "#47E7CE"
 ---
 

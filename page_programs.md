@@ -1,8 +1,8 @@
 ---
-layout: programs
 title: Programs
-permalink: /programs/
-
-[//]: #Page Header
+permalink: "/programs/"
+layout: programs
+'["//"]': 
 circle: "#47E7CE"
 ---
+
