@@ -1,7 +1,9 @@
 ---
+title: Home 3
 docs-question: To update the resource section (three columns )
 docs-category: home
 ---
+
 In siteleaf panel, select Pages.  Select 'Home'. Check for these variables:
 
     + resource1_name

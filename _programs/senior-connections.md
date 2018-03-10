@@ -1,13 +1,11 @@
 ---
-layout: programs
 title: Senior Connections
+layout: programs
 audience: Adults Only
 program_summary: Cakes & Convos, Bingo and Adult Literacy courses coming back soon!
-
-[//]: # Cover Image
-cover_image: /assets/img/programs_seniorconnections.jpg
-
-[//]: # Meta Box (Programs Page)
+'["//"]': 
+cover_image: "/assets/img/programs_seniorconnections.jpg"
 days: TBA
-time:
+time: 
 ---
+

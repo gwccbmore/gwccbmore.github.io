@@ -1,12 +1,11 @@
 ---
-layout: bronze
 title: Highlights
-permalink: /highlights/
-
-[//]: # Page Header
+permalink: "/highlights/"
+layout: bronze
+'["//"]': 
 circle: "#47E7CE"
-
 ---
+
 {% assign my_featured_post = site.posts | where: "featured", true %}
 {% for post in my_featured_post limit:1 %}
 <div class="highlights_group discover_overlay" style="background-image: url('{{ post.cover }}');">

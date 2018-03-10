@@ -1,7 +1,9 @@
 ---
+title: Calendar 1
 docs-question: To add events to the calendar
 docs-category: calendar
 ---
+
 The calendar is managed by a third party service.  Login to <a href="https://tockify.com">Tockify</a>.
 
 After logging in, open the calendar editor.

@@ -1,7 +1,9 @@
 ---
+title: Newsletter 1
 docs-question: To see who has subscribed to your newsletter account
 docs-category: newsletter
 ---
+
 Login to Mailchimp.com and use login information to access the account.
 
 Select Lists and check out the information in each list.
