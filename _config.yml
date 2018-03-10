@@ -70,8 +70,8 @@ description: 'Write an awesome description for your new site here. You can edit 
   results) and in your feed.xml site description.
 
 '
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 markdown: kramdown
 theme: minima
 permalink: "/highlights/:title/"
@@ -95,7 +95,7 @@ youtube: gwccbaltimore
 instagram: gwccbaltimore
 programs_overlay_img: "/assets/img/programs_overlay_cover.png"
 programs_overlay_title: Programs
-programs_overlay_summary: 'The Greenmount West Community Center, will offer computer
-  classes and wellness classes for adults, after-school and summer programs designed
-  to help children build leadership skills, earn good grades, and learn sufficiency
-  skills, while gaining exposure to positive role models. These programs include:'
+programs_overlay_summary: 'The Greenmount West Community Center will offer computer
+  and wellness classes for adults.  Also, after-school and summer programs designed
+  to help children build leadership skills, earn good grades, and learn self-sufficiency
+  skills while gaining exposure to positive role models. These programs include:'
