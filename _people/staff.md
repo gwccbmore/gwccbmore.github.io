@@ -1,6 +1,5 @@
 ---
-title: Staff
 layout: people
+title: Staff
 order: 1
 ---
-

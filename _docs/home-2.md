@@ -1,9 +1,7 @@
 ---
-title: Home 2
 docs-question: To update home page video
 docs-category: home
 ---
-
 In siteleaf panel, select Pages.  Select 'Home'. Update these variables:
 
     + video_embed

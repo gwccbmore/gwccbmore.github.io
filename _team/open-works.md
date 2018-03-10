@@ -1,9 +1,8 @@
 ---
 title: Open Works
-avatar: "/assets/img/partner_openworks.jpg"
+avatar: /assets/img/partner_openworks.jpg
 cc_position: partner
 external_link: http://www.openworksbmore.com/
-team: partners
+team: "partners"
 order: 3
 ---
-

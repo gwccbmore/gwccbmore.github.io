@@ -1,15 +1,14 @@
 ---
-title: People 1
 docs-question: To add or remove people from team
 docs-category: people
 ---
-
 In siteleaf, select Team.  Select team member to remove.  Scroll to bottom of team members page and delete document
 
 To add a new team member, select add 'New Document'.  Fill out the variables:
 
     + avatar
     + team
+    + cc_position
     + order
 
 'avatar' is the image for the team member.  
