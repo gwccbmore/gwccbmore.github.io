@@ -1,13 +1,10 @@
 ---
 title: BMPCS
-avatar: /assets/img/partner_bmpcs.jpg
-position: Partner
-
+position: 0
+avatar: "/assets/img/partner_bmpcs.jpg"
 external_link: https://baltimoremontessoricharter.org/
-
-[//]: #Team
-team: "partners"
-
-[//]: # Sort
+'["//"]': 
+team: partners
 order: 1
 ---
+

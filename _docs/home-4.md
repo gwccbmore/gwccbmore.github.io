@@ -1,7 +1,9 @@
 ---
+title: Home 4
 docs-question: To update and add sponsors
 docs-category: home
 ---
+
 In siteleaf panel, select Settings.  Select 'General'. Check for these variables:
 
     + sponsor1_img
