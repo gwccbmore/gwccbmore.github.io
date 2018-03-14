@@ -3,7 +3,7 @@ layout: home
 title: Home
 
 [//]: #Video Background
-video_bg: /assets/video/bsb_gwcc.mp4
+video_bg: http:///www.svncrwns.com/hosted_content/gwcc/bsb_gwcc.mp4
 video_poster: /assets/video/poster.jpg
 
 [//]: # Main Title Masthead
