@@ -1,9 +1,7 @@
 ---
-title: History
-permalink: "/history/"
 layout: bronze
-'["//"]': 
-circle: "#47E7CE"
+title: History
+permalink: /history/
 ---
 
 <div class="history_group discover_overlay" style="background-image: url('/assets/img/history_cover2.jpg');">

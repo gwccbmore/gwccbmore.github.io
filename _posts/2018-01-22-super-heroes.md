@@ -1,11 +1,9 @@
 ---
-title: Super Heroes
-date: 2018-01-22 00:00:00 Z
 layout: post2
-highlight_summary: Re-imagining our superheroes and their superpowers in the Greenmount
-  West Community.  Premiering at GW Lit Relays coming April 2018!
+title:  "Super Heroes"
+highlight_summary: "Re-imagining our superheroes and their superpowers in the Greenmount West Community.  Premiering at GW Lit Relays coming April 2018!"
 featured: true
-cover: "/assets/img/gwcc_highlights_superheroes.jpg"
+cover: /assets/img/gwcc_highlights_superheroes.jpg
 vimeo_video: true
 ---
 

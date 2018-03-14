@@ -1,11 +1,9 @@
 ---
-title: Give
-permalink: "/give/"
 layout: bronze
-'["//"]': 
-circle: "#47E7CE"
----
+title: Give
+permalink: /give/
 
+---
 <div class="discover_grid">
     <div class="discover_prime_single">
         <div class="frow justify-between">

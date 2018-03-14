@@ -37,10 +37,19 @@
   <!-- Slick Stylesheets -->
   <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
 
-  <!-- Snipcart Stylesheets -->
-  <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115766053-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-115766053-1');
+    </script>
 
   
+
+
 
 </head>
 
@@ -778,16 +787,16 @@ if (e.keyCode == '39') { window.location = ''; }
                                     <div class="social_group">
                                         <ul>
                                             <li>
-                                                <a href="http://www.facebook.com/gwccbaltimore"><i class="fab fa-facebook-f fa-2x"></i></a>
+                                                <a href="http://www.facebook.com/Greenmountwest"><i class="fab fa-facebook-f fa-2x"></i></a>
                                             </li>
                                             <li>
                                                 <a href="http://www.twitter.com/gwccbaltimore"><i class="fab fa-twitter fa-2x"></i></a>
                                             </li>
                                             <li>
-                                                <a href="http://www.youtube.com/user/gwccbaltimore"><i class="fab fa-youtube fa-2x"></i></a>
+                                                <a href="http://www.youtube.com/user/"><i class="fab fa-youtube fa-2x"></i></a>
                                             </li>
                                             <li>
-                                                <a href="http://www.instagram.com/gwccbaltimore"><i class="fab fa-instagram fa-2x"></i></a>
+                                                <a href="http://www.instagram.com/Gwccbaltimore"><i class="fab fa-instagram fa-2x"></i></a>
                                             </li>
                                             <li>
                                                 <a href="mailto:admin@greenmountwestcc.org"><i class="far fa-envelope fa-2x"></i></a>
@@ -833,7 +842,7 @@ if (e.keyCode == '39') { window.location = ''; }
                                                 height: 38px;
                                                 min-width: auto;
                                                 color: #000;
-                                                background-color: #47E7CE;
+                                                background-color: transparent;
                                                 border-radius: 50%;
                                                 border: 2px solid #000;
                                                 display: inline-block;
@@ -849,19 +858,18 @@ if (e.keyCode == '39') { window.location = ''; }
                                                 }
                                                 #mc_embed_signup label {
                                                     text-align: left;
-                                                }
-                                            }
-                                            @media screen and (min-width: 1200px) {
-                                                #mc_embed_signup input.email {
-                                                    width: 70%;
-                                                    margin-top: 15px;
+                                                    padding-bottom: 10px;
                                                 }
                                                 .submit_icon {
                                                     display: inline-block;
                                                     padding-left: 10px;
+                                                    width: 25%;
                                                 }
-
+                                                #mc_embed_signup input.email {
+                                                    width: 70%;
+                                                }
                                             }
+
                                         	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
                                         	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
                                         </style>

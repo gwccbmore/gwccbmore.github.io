@@ -1,9 +1,7 @@
 ---
-title: Programs Overlay1
 docs-question: To update programs overlay
 docs-category: programs-overlay
 ---
-
 In siteleaf, go to Settings.  Check for these variables:
 
     + programs_overlay_img

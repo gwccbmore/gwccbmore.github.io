@@ -1,9 +1,8 @@
 ---
-title: Computers and Library
-permalink: "/computers-and-library/"
 layout: bronze
-'["//"]': 
-circle: "#47E7CE"
+title: Computers and Library
+permalink: /computers-and-library/
+
 ---
 
 <div class="cover_group discover_overlay" style="background-image: url('/assets/img/gwcc_publiccomputers.jpg');">

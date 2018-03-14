@@ -1,9 +1,7 @@
 ---
-title: Policy
-permalink: "/policy/"
 layout: bronze
-'["//"]': 
-circle: "#47E7CE"
+title: Policy
+permalink: /policy/
 ---
 
 <div class="discover_grid">
